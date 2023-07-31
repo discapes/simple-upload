@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "name": "natas",
+  "version": "1.0.0",
+  "main": " ",
+  "scripts": {
+    "start": "tsx index.ts",
+    "watch": "tsx watch index.ts",
+    "debug": "tsx index.ts --inspect --inspect-brk"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^20.4.5"
+  },
+  "dependencies": {
+    "busboy": "^1.6.0",
+    "tsx": "^3.12.7",
+    "undici": "^5.22.1"
+  }
+}
